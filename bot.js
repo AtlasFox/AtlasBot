@@ -27,7 +27,7 @@ client.on('ready', () => {
 client.on('message', msg => {
 
   if (msg.content === prefix+'help' ) {
-    msg.channel.send('@~ Chairman ~ @~ Vice Chairman ~, help!);
+    msg.channel.send('@~ Chairman ~ @~ Vice Chairman ~, help!');
   }
 });
 
