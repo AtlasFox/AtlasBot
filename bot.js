@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 client.login(token);
 
-//help command
+//Help command
 
 client.on('ready', () => {
   console.log('Help ready!');
@@ -28,8 +28,9 @@ client.on('ready', () => {
 client.on('message', msg => {
 
   if (msg.content === prefix+'help' ) {
-    msg.channel.send('@~ Chairman ~ @~ Vice Chairman ~, help!');
+    msg.channel.send('<@&285877558359228416> <@&286600309004959744>, somebody needs help!');
   }
 });
 
 client.login(token);
+
