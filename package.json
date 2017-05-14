@@ -1,25 +1,23 @@
 {
-  "name": "AtlasBot",
-  "version": "0.2.6",
-  "description": "AtlasFox Discord Bot",
-  "engines": {
-    "node": "6.10.2"
-  },
-  "main": "bot.js",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "ejs": "2.5.6",
-    "express": "4.15.2"
+    "ajax-request": "^1.2.1",
+    "discord.js": "^7.0.1",
+    "express": "^4.13.3",
+    "get-json": "0.0.3",
+    "jquery": "^2.2.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AtlasFox/AtlasBot"
+  "engines": {
+    "node": "4.0.0"
   },
   "keywords": [
     "node",
-    "atlas",
+    "heroku",
     "express"
   ],
   "license": "MIT"
