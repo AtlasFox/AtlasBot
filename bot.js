@@ -32,7 +32,7 @@ client.on('message', msg => {
   }
 });
 
-}).listen(process.env.PORT || 5000)
+}).listen(process.env.PORT || 8080)
 
 client.login(token);
 
