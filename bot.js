@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = 'MzEyMzk4ODMyNjQ0MjU5ODQw.C_aklg.7Vc7chN3LhcLJA9Yqjxp5mp_dd8';
 const prefix = "^"
+var port = process.env.PORT || 8080;
 
 //Rules command
 
